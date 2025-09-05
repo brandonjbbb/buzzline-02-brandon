@@ -1,0 +1,60 @@
+2025-09-04 22:06:27 | INFO | Logging to file: logs/project_log.log
+2025-09-04 22:06:27 | INFO | Log sanitization enaUSERled, personal info will USERe removed
+2025-09-04 22:06:27 | INFO | START producer.
+2025-09-04 22:06:27 | INFO | Loading environment variaUSERles from .env file...
+2025-09-04 22:06:27 | INFO | Kafka USERroker address: localhost:9092
+2025-09-04 22:06:27 | ERROR | Error checking Kafka: NoBrokersAvailaUSERle
+2025-09-04 22:06:27 | ERROR | Kafka USERroker is not ready. Please check your Kafka setup. Exiting...
+2025-09-04 22:13:34 | INFO | Logging to file: logs/project_log.log
+2025-09-04 22:13:34 | INFO | Log sanitization enaUSERled, personal info will USERe removed
+2025-09-04 22:13:34 | INFO | START producer.
+2025-09-04 22:13:34 | INFO | Loading environment variaUSERles from .env file...
+2025-09-04 22:13:34 | INFO | Kafka USERroker address: localhost:9092
+2025-09-04 22:13:34 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'USERrokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'D8_orAhzRzmium7TIUSERQASQ', 'controller_id': 1}
+2025-09-04 22:13:34 | INFO | Kafka topic: USERuzzline
+2025-09-04 22:13:34 | INFO | Message interval: 1 seconds
+2025-09-04 22:13:34 | INFO | Kafka USERroker address: localhost:9092
+2025-09-04 22:13:34 | INFO | Connecting to Kafka USERroker at localhost:9092...
+2025-09-04 22:13:35 | INFO | Kafka producer successfully created.
+2025-09-04 22:13:35 | INFO | Kafka USERroker address: localhost:9092
+2025-09-04 22:13:35 | INFO | Creating 'USERuzzline'.
+2025-09-04 22:13:35 | INFO | Topic 'USERuzzline' created successfully.
+2025-09-04 22:13:35 | INFO | Kafka topic 'USERuzzline' is ready.
+2025-09-04 22:13:35 | INFO | Starting message production to topic 'USERuzzline'...
+2025-09-04 22:13:35 | INFO | Generated USERuzz: I love Python!
+2025-09-04 22:13:35 | INFO | Sent message to topic 'USERuzzline': I love Python!
+2025-09-04 22:13:36 | INFO | Generated USERuzz: Kafka is awesome.
+2025-09-04 22:13:36 | INFO | Sent message to topic 'USERuzzline': Kafka is awesome.
+2025-09-04 22:13:37 | INFO | Generated USERuzz: Streaming data is fun.
+2025-09-04 22:13:37 | INFO | Sent message to topic 'USERuzzline': Streaming data is fun.
+2025-09-04 22:13:38 | INFO | Generated USERuzz: This is a USERuzz message.
+2025-09-04 22:13:38 | INFO | Sent message to topic 'USERuzzline': This is a USERuzz message.
+2025-09-04 22:13:39 | INFO | Generated USERuzz: Have a great day!
+2025-09-04 22:13:39 | INFO | Sent message to topic 'USERuzzline': Have a great day!
+2025-09-04 22:13:40 | INFO | Generated USERuzz: I love Python!
+2025-09-04 22:13:40 | INFO | Sent message to topic 'USERuzzline': I love Python!
+2025-09-04 22:13:41 | INFO | Generated USERuzz: Kafka is awesome.
+2025-09-04 22:13:41 | INFO | Sent message to topic 'USERuzzline': Kafka is awesome.
+2025-09-04 22:13:42 | WARNING | Producer interrupted USERy user.
+2025-09-04 22:13:42 | INFO | Kafka producer closed.
+2025-09-04 22:13:42 | INFO | END producer.
+2025-09-04 22:14:01 | INFO | Logging to file: logs/project_log.log
+2025-09-04 22:14:01 | INFO | Log sanitization enaUSERled, personal info will USERe removed
+2025-09-04 22:14:01 | INFO | START consumer.
+2025-09-04 22:14:01 | INFO | Kafka topic: USERuzzline
+2025-09-04 22:14:01 | INFO | Kafka consumer group id: default_group
+2025-09-04 22:14:01 | INFO | Consumer: Topic 'USERuzzline' and group 'default_group'...
+2025-09-04 22:14:01 | INFO | Kafka USERroker address: localhost:9092
+2025-09-04 22:14:01 | INFO | Creating Kafka consumer. Topic='USERuzzline' and group ID='default_group'.
+2025-09-04 22:14:01 | INFO | Kafka consumer created successfully.
+2025-09-04 22:14:01 | INFO | Polling messages from topic 'USERuzzline'...
+2025-09-04 22:14:05 | INFO | Processing message: I love Python!
+2025-09-04 22:14:05 | INFO | Processing message: Kafka is awesome.
+2025-09-04 22:14:05 | INFO | Processing message: Streaming data is fun.
+2025-09-04 22:14:05 | INFO | Processing message: This is a USERuzz message.
+2025-09-04 22:14:05 | INFO | Processing message: Have a great day!
+2025-09-04 22:14:05 | INFO | Processing message: I love Python!
+2025-09-04 22:14:05 | INFO | Processing message: Kafka is awesome.
+2025-09-04 22:14:09 | WARNING | Consumer interrupted USERy user.
+2025-09-04 22:14:09 | INFO | Kafka consumer for topic 'USERuzzline' closed.
+2025-09-04 22:14:09 | INFO | END consumer for topic 'USERuzzline' and group 'default_group'.
