@@ -37,6 +37,19 @@ def get_kafka_topic() -> str:
     logger.info(f"Kafka topic: {topic}")
     return topic
 
+def get_message_limit() -> Optional[int]:
+    """Fetch the optional message cap from environment (None = infinite)."""
+    raw = os.getenv("MESSAGE_LIMIT")
+    if raw is None or raw.strip() == "":
+        logger.info("Message limit: infinite")
+        return None
+    try:
+        limit = int(raw)
+        logger.info(f"Message limit: {limit}")
+        return limit
+    except ValueError:
+        logger.warning("Invalid MESSAGE_LIMIT; using infinite stream")
+        return None
 
 
 def get_kafka_consumer_group_id() -> int:
