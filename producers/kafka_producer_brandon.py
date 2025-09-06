@@ -56,6 +56,23 @@ def get_message_interval() -> int:
 #####################################
 # Message Generator
 #####################################
+@dataclass
+class BuzzEvent:
+    """Structured event describing a buzz message."""
+
+    event_id: str
+    ts: str
+    source: str
+    text: str
+    tags: List[str]
+    sentiment: float  # in [-1.0, 1.0]
+
+    @staticmethod
+    def now_iso() -> str:
+        return datetime.now(timezone.utc).isoformat()
+
+    def to_json_str(self) -> str:
+        return json.dumps(asdict(self), ensure_ascii=False, separators=(",", ":"))
 
 
 def generate_messages(producer, topic, interval_secs):
