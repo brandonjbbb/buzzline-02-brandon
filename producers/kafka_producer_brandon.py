@@ -1,5 +1,5 @@
 """
-kafka_producer_case.py
+kafka_producer_brandon.py
 
 Produce some streaming buzz strings and send them to a Kafka topic.
 """

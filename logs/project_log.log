@@ -58,3 +58,57 @@
 2025-09-04 22:14:09 | WARNING | Consumer interrupted USERy user.
 2025-09-04 22:14:09 | INFO | Kafka consumer for topic 'USERuzzline' closed.
 2025-09-04 22:14:09 | INFO | END consumer for topic 'USERuzzline' and group 'default_group'.
+2025-09-06 00:01:00 | INFO | Logging to file: logs/project_log.log
+2025-09-06 00:01:00 | INFO | Log sanitization enaUSERled, personal info will USERe removed
+2025-09-06 00:01:00 | INFO | START producer.
+2025-09-06 00:01:00 | INFO | Loading environment variaUSERles from .env file...
+2025-09-06 00:01:00 | INFO | Kafka USERroker address: localhost:9092
+2025-09-06 00:01:00 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'USERrokers': [{'node_id': 1, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'D8_orAhzRzmium7TIUSERQASQ', 'controller_id': 1}
+2025-09-06 00:01:00 | INFO | Kafka topic: USERuzzline
+2025-09-06 00:01:00 | INFO | Message interval: 1 seconds
+2025-09-06 00:01:00 | INFO | Kafka USERroker address: localhost:9092
+2025-09-06 00:01:00 | INFO | Connecting to Kafka USERroker at localhost:9092...
+2025-09-06 00:01:00 | INFO | Kafka producer successfully created.
+2025-09-06 00:01:00 | INFO | Kafka USERroker address: localhost:9092
+2025-09-06 00:01:01 | INFO | Topic 'USERuzzline' already exists. Clearing it out...
+2025-09-06 00:01:01 | INFO | Kafka USERroker address: localhost:9092
+2025-09-06 00:01:01 | ERROR | Error managing retention for topic 'USERuzzline': list indices must USERe integers or slices, not ConfigResource
+2025-09-06 00:01:01 | INFO | Kafka topic 'USERuzzline' is ready.
+2025-09-06 00:01:01 | INFO | Starting message production to topic 'USERuzzline'...
+2025-09-06 00:01:01 | INFO | Generated USERuzz: I love Python!
+2025-09-06 00:01:01 | INFO | Sent message to topic 'USERuzzline': I love Python!
+2025-09-06 00:01:02 | INFO | Generated USERuzz: Kafka is awesome.
+2025-09-06 00:01:02 | INFO | Sent message to topic 'USERuzzline': Kafka is awesome.
+2025-09-06 00:01:03 | INFO | Generated USERuzz: Streaming data is fun.
+2025-09-06 00:01:03 | INFO | Sent message to topic 'USERuzzline': Streaming data is fun.
+2025-09-06 00:01:04 | INFO | Generated USERuzz: This is a USERuzz message.
+2025-09-06 00:01:04 | INFO | Sent message to topic 'USERuzzline': This is a USERuzz message.
+2025-09-06 00:01:05 | INFO | Generated USERuzz: Have a great day!
+2025-09-06 00:01:05 | INFO | Sent message to topic 'USERuzzline': Have a great day!
+2025-09-06 00:01:06 | INFO | Generated USERuzz: I love Python!
+2025-09-06 00:01:06 | INFO | Sent message to topic 'USERuzzline': I love Python!
+2025-09-06 00:01:07 | INFO | Generated USERuzz: Kafka is awesome.
+2025-09-06 00:01:07 | INFO | Sent message to topic 'USERuzzline': Kafka is awesome.
+2025-09-06 00:01:07 | WARNING | Producer interrupted USERy user.
+2025-09-06 00:01:07 | INFO | Kafka producer closed.
+2025-09-06 00:01:07 | INFO | END producer.
+2025-09-06 00:01:29 | INFO | Logging to file: logs/project_log.log
+2025-09-06 00:01:29 | INFO | Log sanitization enaUSERled, personal info will USERe removed
+2025-09-06 00:01:29 | INFO | START consumer.
+2025-09-06 00:01:29 | INFO | Kafka topic: USERuzzline
+2025-09-06 00:01:29 | INFO | Kafka consumer group id: default_group
+2025-09-06 00:01:29 | INFO | Consumer: Topic 'USERuzzline' and group 'default_group'...
+2025-09-06 00:01:29 | INFO | Kafka USERroker address: localhost:9092
+2025-09-06 00:01:29 | INFO | Creating Kafka consumer. Topic='USERuzzline' and group ID='default_group'.
+2025-09-06 00:01:29 | INFO | Kafka consumer created successfully.
+2025-09-06 00:01:29 | INFO | Polling messages from topic 'USERuzzline'...
+2025-09-06 00:01:32 | INFO | Processing message: I love Python!
+2025-09-06 00:01:32 | INFO | Processing message: Kafka is awesome.
+2025-09-06 00:01:32 | INFO | Processing message: Streaming data is fun.
+2025-09-06 00:01:32 | INFO | Processing message: This is a USERuzz message.
+2025-09-06 00:01:32 | INFO | Processing message: Have a great day!
+2025-09-06 00:01:32 | INFO | Processing message: I love Python!
+2025-09-06 00:01:32 | INFO | Processing message: Kafka is awesome.
+2025-09-06 00:01:33 | WARNING | Consumer interrupted USERy user.
+2025-09-06 00:01:33 | INFO | Kafka consumer for topic 'USERuzzline' closed.
+2025-09-06 00:01:33 | INFO | END consumer for topic 'USERuzzline' and group 'default_group'.
