@@ -8,6 +8,8 @@ Consume messages from a Kafka topic and process them.
 # Import Modules
 #####################################
 
+from typing import Optional
+
 # Import packages from Python Standard Library
 import os
 
@@ -34,6 +36,7 @@ def get_kafka_topic() -> str:
     topic = os.getenv("KAFKA_TOPIC", "unknown_topic")
     logger.info(f"Kafka topic: {topic}")
     return topic
+
 
 
 def get_kafka_consumer_group_id() -> int:
