@@ -30,6 +30,11 @@ load_dotenv()
 # Getter Functions for .env Variables
 #####################################
 
+def check_for_alert(message: str) -> None:
+    """Trigger an alert if message contains certain keywords."""
+    alert_keywords = ["error", "bad", "fail"]
+    if any(word.lower() in message.lower() for word in alert_keywords):
+        logger.warning(f"ALERT 🚨 - Suspicious message detected: {message}")
 
 def get_kafka_topic() -> str:
     """Fetch Kafka topic from environment or use default."""
